@@ -15,8 +15,8 @@ service_pro = phonenumbers.parse(number, "ZA")
 print(carrier.name_for_number(service_pro, "en"))
 
 from opencage.geocoder import OpenCageGeocode
-
-key = 'd139972d57164f24a5ba9329bd9a537b'
+# opencage api key
+key = ''
 
 geocoder = OpenCageGeocode(key)
 guery = str(location)
